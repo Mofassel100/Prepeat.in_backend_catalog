@@ -1,11 +1,12 @@
 import express from "express";
+import { FoodCategoryRoutes } from "../route/router";
 
-const router = express.Router();
+export const router = express.Router();
 
 const moduleRoutes = [
   {
-    path: "/",
-    route: router,
+    path: "/food-category",
+    route: FoodCategoryRoutes,
   },
 ];
 
