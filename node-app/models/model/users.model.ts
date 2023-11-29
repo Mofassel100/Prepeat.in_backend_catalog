@@ -28,7 +28,7 @@ export const UserSchama = new Schema<IUser, UserModel>(
       required: true,
     },
     address: {
-      type: Number,
+      type: String,
     },
   },
   {
