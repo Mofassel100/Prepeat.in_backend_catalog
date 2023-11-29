@@ -36,4 +36,4 @@ export const UserSchama = new Schema<IUser, UserModel>(
   }
 );
 
-export const Food = model<IUser, UserModel>("Users", UserSchama);
+export const User = model<IUser, UserModel>("Users", UserSchama);

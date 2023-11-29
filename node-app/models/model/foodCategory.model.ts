@@ -15,7 +15,6 @@ const FoodCategorySchama = new Schema<IFoodCategory, FoodCategoryModel>(
     title: {
       type: String,
       required: true,
-      unique: true,
     },
     name: {
       type: String,
